@@ -18,6 +18,10 @@ const config: Config = {
     bot: {
         access_token: env.TELEGRAM_BOT_ACCESS_TOKEN,
     },
+    gather: {
+        space_id: env.GATHER_SPACE_ID,
+        api_key: env.GATHER_API_KEY,
+    },
 }
 
 export default config
