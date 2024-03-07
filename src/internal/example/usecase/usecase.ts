@@ -77,7 +77,7 @@ class Usecase {
             const response = await Axios.post(
                 'https://api.gather.town/api/v2/spaces',
                 {
-                    sourceSpace: 'cWbyYm8puuBXarE3\\SIDEBARU',
+                    sourceSpace: 'pSEmC0On7UuUp8P2\\SOURCE',
                     name: 'SIDEBARU',
                 },
                 {
